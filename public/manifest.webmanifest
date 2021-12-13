@@ -1,8 +1,20 @@
-{   
-    "name":"PWA-Budget-Tracker",
-    "short_name":"PWA-Budget-Tracker",
-    "theme_color":"#ffffff",
-    "background_color":"#ffffff",
-    "start_url":"/",
-    "display":"standalone"
+{
+  "short_name": "Budget app",
+  "name": "Budget app",
+  "icons": [
+    {
+      "src": "/icons/icon-192x192.png",
+      "sizes": "169x168",
+      "type": "image/png"
+    },
+    {
+      "src": "/icons/icon-512x512.png",
+      "sizes": "452x451",
+      "type": "image/png"
+    }
+  ],
+  "start_url": "/",
+  "background_color": "#808080",
+  "display": "standalone",
+  "theme_color": "#808080"
 }
